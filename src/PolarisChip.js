@@ -17,6 +17,27 @@ export class PolarisChip extends LitElement {
 
       }
 
+      .container {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          ". . ."
+          ". . ."
+          ". . .";
+      }
+      
+      
+      html, body , .container {
+        height: 100%;
+        margin: 0;
+      }
+      
+      
+      }
+      
+      
       .link:hover,
       :host([active]) .link{
         background-color: #444;

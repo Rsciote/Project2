@@ -74,11 +74,7 @@ export class PolarisTile extends LitElement {
     
   }
 
-  ColorChange(){
-
-    
-
-  }
+  
 
   render() {
     return html`<a class="link" href="${this.link}"><slot>${this.name}</slot></span>`;

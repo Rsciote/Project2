@@ -78,7 +78,7 @@ export class PolarisTile extends LitElement {
 
   render() {
     return html`<a class="link" href="${this.link}"><slot>${this.name}</slot></span>`;
-    <img slot="image" src="custom-image.jpg" alt="Custom Image"></img>;
+    
     
   }
   
